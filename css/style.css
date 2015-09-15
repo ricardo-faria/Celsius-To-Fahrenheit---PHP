@@ -1,0 +1,50 @@
+.celsius, .fahrenheit{
+    display:block;
+    margin: 10px auto;
+}
+
+label{
+    text-align: center;
+}
+
+label, input, #calculate{
+    margin: 10px auto;
+    display: inline-block;
+    
+}
+#calculate{
+    display: block;
+    
+}
+form{
+    border: 1px solid black;
+    padding: 10px;
+    width: 300px;
+    height: 190px;
+    margin: auto;
+    vertical-align: middle;
+    background-color: #AEB0B0;
+    -webkit-box-shadow: -9px 2px 131px 90px rgba(186,187,204,1);
+    -moz-box-shadow: -9px 2px 131px 90px rgba(186,187,204,1);
+    box-shadow: -9px 2px 131px 90px rgba(186,187,204,1);
+}
+
+#tempFahrenheit{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;   
+    margin-left: 120px;
+    border-radius: 8px;
+}
+
+input{
+    height: 20px;
+}
+
+body{
+    background-color:#919394;
+    font-family: arial;
+    font-weight: bold;
+    color: #000046;
+    margin-top: 100px;
+}
